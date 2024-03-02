@@ -1,0 +1,34 @@
+body { 
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+main{
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-shadow: 0 0 10px  rgb(186, 186, 186);
+  color: white;
+  /* background-color: lightskyblue; */
+
+}
+
+h2{
+  margin: 0;
+  padding: 1em;
+}
+
+div.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  text-align: center;
+}
